@@ -23,8 +23,8 @@ define(['dialog','jquery','jqueryUI'],function(d,$,$UI){
 	$(".confirm").click(function(event) {
 		var confirm = new d.Dialog();
 		confirm.confirm({
-			w:400,
-			h:250,
+			w:600,
+			h:400,
 			title:"confirm",
 			content:"hello",
 			text4ConfirmBtn:"确定",
